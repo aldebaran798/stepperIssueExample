@@ -1,0 +1,47 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bdwtown.stepperExample.Step1Fragment">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Step 1"
+                android:textAllCaps="true"/>
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie iaculis nisl venenatis aliquam. Vivamus purus mauris, ullamcorper in ex ac, auctor hendrerit elit. Nunc mattis aliquet neque. Aenean imperdiet ornare massa vel sollicitudin. Suspendisse rhoncus velit vitae risus pellentesque volutpat. Integer rhoncus dui a eros fringilla tempus. Morbi at est quis mauris ultrices porta. Pellentesque elementum sapien placerat vulputate mollis. Donec eget aliquam risus, a porttitor risus. Vestibulum at malesuada ligula, vitae sagittis nisl. Cras varius cursus velit sed blandit. Maecenas sed magna ante. Integer in velit lectus. Nulla facilisi. Cras scelerisque convallis enim, non dignissim est porta sit amet."
+            android:textAlignment="center"
+            android:textSize="30sp" />
+    </android.support.v4.widget.NestedScrollView>
+
+
+</android.support.design.widget.CoordinatorLayout>

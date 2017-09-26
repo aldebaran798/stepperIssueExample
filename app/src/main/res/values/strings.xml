@@ -1,0 +1,5 @@
+<resources>
+    <!--- General Strings -->
+    <string name="app_name">Stepper Example</string>
+    <string name="action_settings">Settings</string>
+</resources>
